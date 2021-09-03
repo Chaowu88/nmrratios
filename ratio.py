@@ -78,14 +78,13 @@ class Ratio:
 	@classmethod
 	def available_ratios(cls):
 		
-		cls.ratios = ['Ratio', 
-					  'PEP_from_OAA', 
-					  'OAA_from_PEP', 
-					  'Pyr_from_Mal_lb', 
-					  'Pyr_from_Mal_ub',
-					  'Pyr_from_ED_lb',
-					  'Pyr_from_ED_ub',
-					  'OAA_exch_Fum']
+		cls.ratios = ['PEP_from_OAA', 
+			      'OAA_from_PEP', 
+			      'Pyr_from_Mal_lb', 
+			      'Pyr_from_Mal_ub',
+			      'Pyr_from_ED_lb',
+			      'Pyr_from_ED_ub',
+			      'OAA_exch_Fum']
 		
 		return cls.ratios		
 
